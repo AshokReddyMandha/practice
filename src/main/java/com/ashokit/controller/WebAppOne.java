@@ -14,6 +14,7 @@ public class WebAppOne {
 		mav.addObject("attr1", "Welcome to WEB MVC module");
 		mav.addObject("attr2", "Its the Fist Application in Web MVC");
 		mav.setViewName("index");
+		System.out.println("first added");
 		return mav;
 	}
 }
